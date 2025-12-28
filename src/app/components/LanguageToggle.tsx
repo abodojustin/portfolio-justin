@@ -10,7 +10,7 @@ export const LanguageToggle = () => {
             onClick={toggleLanguage}
             className="px-4 py-2 text-sm font-semibold rounded-full bg-black/30 text-white border border-white/20 backdrop-blur-sm"
         >
-            {language === 'en' ? 'Deutsch' : 'English'}
+            {language === 'en' ? 'DE' : 'EN'}
         </button>
     );
 };

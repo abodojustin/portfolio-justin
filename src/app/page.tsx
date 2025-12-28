@@ -53,10 +53,11 @@ export default function Home() {
     return (
         <main className="flex flex-col items-center justify-center min-h-screen p-4 md:p-8">
             {/* --- Theme Button --- */}
-            <div className="absolute top-5 right-5 z-50 flex items-center gap-4">
+            <div className="fixed top-12 sm:top-5 right-5 z-50 flex items-center gap-3 sm:gap-4">
                 <ThemeToggle />
                 <LanguageToggle />
             </div>
+
 
             <div className="w-full max-w-5xl mx-auto">
                 {/* --- Header/Profile Section --- */}
